@@ -1,5 +1,6 @@
 package com.ademirsoy.orderservice.service;
 
+import com.ademirsoy.orderservice.exception.EntityNotFoundException;
 import com.ademirsoy.orderservice.exception.InvalidOrderStateException;
 import com.ademirsoy.orderservice.model.Order;
 import com.ademirsoy.orderservice.model.OrderState;
@@ -10,7 +11,6 @@ import com.ademirsoy.orderservice.repository.OrderRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import javax.persistence.EntityNotFoundException;
 import java.util.ArrayList;
 import java.util.Collection;
 

@@ -1,10 +1,10 @@
 package com.ademirsoy.orderservice.service;
 
+import com.ademirsoy.orderservice.exception.EntityNotFoundException;
 import com.ademirsoy.orderservice.model.Photographer;
 import com.ademirsoy.orderservice.repository.PhotographerRepository;
 import org.springframework.stereotype.Service;
 
-import javax.persistence.EntityNotFoundException;
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;

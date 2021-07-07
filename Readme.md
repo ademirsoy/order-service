@@ -25,7 +25,7 @@ and manage its evolution.
 
   **`mvn spring-boot:run`**
 
-  **`java -jar target/photo-shooting-order-service-0.0.1.jar`**
+  **`java -jar target/photo-shooting-order-service-1.0.jar`**
 
   **`./mvnw spring-boot:run`**
 

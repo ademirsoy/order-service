@@ -9,7 +9,6 @@ import com.ademirsoy.orderservice.model.PhotoType;
 import com.ademirsoy.orderservice.model.request.AssignOrderRequest;
 import com.ademirsoy.orderservice.model.request.ScheduleOrderRequest;
 import com.ademirsoy.orderservice.repository.OrderRepository;
-import org.aspectj.weaver.ast.Or;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

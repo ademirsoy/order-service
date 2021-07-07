@@ -10,7 +10,7 @@ import java.time.Instant;
 public class AbstractEntity {
 
     @JsonProperty(access = JsonProperty.Access.READ_ONLY)
-    @JsonFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss.SSS[XXX]" , timezone = "UTC")
+    @JsonFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss.SSS[XXX]", timezone = "UTC")
     private Instant createdDate;
 
     @JsonProperty(access = JsonProperty.Access.READ_ONLY)

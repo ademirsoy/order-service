@@ -1,8 +1,8 @@
 package com.ademirsoy.orderservice.exception;
 
 
-public class BadRequestException extends RuntimeException {
-    public BadRequestException(String message) {
+public class EntityNotFoundException extends RuntimeException {
+    public EntityNotFoundException(String message) {
         super(message);
     }
 }

@@ -4,7 +4,6 @@ import com.ademirsoy.orderservice.exception.DataAccessException;
 import com.ademirsoy.orderservice.model.Photographer;
 import org.springframework.stereotype.Service;
 
-import javax.persistence.EntityNotFoundException;
 import java.time.Instant;
 import java.util.HashMap;
 import java.util.Map;
